@@ -1,16 +1,16 @@
-# flutter_clean_arch_example
+# flutter-clean-arch-example
 
-A new Flutter project.
+Minimal Clean Architecture example with BLoC and DI.
 
-## Getting Started
+## Quick start
+1. `flutter pub get`
+2. `flutter run`
 
-This project is a starting point for a Flutter application.
+## Architecture
+- `domain/` — entities, usecases, repository interfaces
+- `data/` — models, datasources, repository implementation
+- `presentation/` — pages & blocs
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## TODO
+- Add tests
+- Add CI (github actions)
